@@ -1,0 +1,42 @@
+{
+  "name": "zplus-web",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxtjs/seo": "^5.3.14",
+    "@pinia/nuxt": "^0.11.2",
+    "@takumi-rs/core": "^2.13.2",
+    "@vite-pwa/nuxt": "^1.0.4",
+    "@vuepic/vue-datepicker": "^11.0.3",
+    "autonumeric": "^4.10.9",
+    "mitt": "^3.0.1",
+    "moment": "^2.30.1",
+    "nuxt": "^4.5.2",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "qrcode": "^1.5.4",
+    "sweetalert2": "^11.26.1",
+    "unstorage": "^1.17.1",
+    "v3-infinite-loading": "^1.3.2",
+    "vue": "^3.5.28",
+    "vue-router": "^4.5.1",
+    "vue-tel-input": "^9.5.0",
+    "vue3-carousel-nuxt": "^1.1.6"
+  },
+  "overrides": {
+    "sharp": "^0.35.0",
+    "unhead": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0"
+  }
+}
